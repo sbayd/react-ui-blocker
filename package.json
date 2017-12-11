@@ -1,0 +1,28 @@
+{
+  "name": "react-ui-blocker",
+  "version": "1.0.0",
+  "description": "Simpe UI Blocker for React Apps",
+  "main": "build/index.js",
+  "repository": "https://github.com/sbayd/React-UI-Blocker.git",
+  "author": "Berkay Aydin <sbayd06@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "parcel example/index.html",
+    "productionForExamples": "parcel build example/index.html -d dist/ --no-minify",
+    "production": "parcel build src/index.js -d build/ --no-minify"
+  },
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "eslint": "^4.13.0",
+    "eslint-plugin-react": "^7.5.1",
+    "mocha": "^4.0.1",
+    "parcel-bundler": "^1.1.0",
+    "postcss-modules": "^1.1.0"
+  }
+}
