@@ -1,6 +1,6 @@
 {
   "name": "react-ui-blocker",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Simpe UI Blocker for React Apps",
   "main": "build/index.js",
   "repository": "https://github.com/sbayd/React-UI-Blocker.git",
@@ -9,7 +9,7 @@
   "private": false,
   "scripts": {
     "start": "parcel example/index.html",
-    "buildExample": "parcel build example/index.html -d dist/example/ --no-minify",
+    "buildExample": "parcel build example/index.html -d dist/ --no-minify --public-url ./",
     "build": "babel src/ -d build/"
   },
   "dependencies": {
