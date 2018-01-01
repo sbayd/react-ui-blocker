@@ -1,6 +1,6 @@
 # React-UI-Blocker
 
-DEMO: http://sbaydin.com/uiblocker/
+DEMO: http://uiblocker.sbaydin.com/
 
 A Body Blocker with Cool Animations for React Apps
 

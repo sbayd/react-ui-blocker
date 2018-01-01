@@ -40,7 +40,7 @@ class App extends React.Component {
       <UIBlocker
         theme={loadingType}
         isVisible={isVisible}
-        message="Loading.. or your custom message"
+        message="Loading.. or your custom message (This will be removed in 3 secs.)"
       />
     </div>);
   }

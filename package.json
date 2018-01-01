@@ -9,7 +9,7 @@
   "private": false,
   "scripts": {
     "start": "parcel example/index.html",
-    "productionForExamples": "parcel build example/index.html -d dist/example/ --no-minify",
+    "buildExample": "parcel build example/index.html -d dist/example/ --no-minify",
     "build": "babel src/ -d build/"
   },
   "dependencies": {
